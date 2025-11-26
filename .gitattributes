@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Config filter=lfs diff=lfs merge=lfs -text
+Content filter=lfs diff=lfs merge=lfs -text
+Source filter=lfs diff=lfs merge=lfs -text
+HW_09.uproject filter=lfs diff=lfs merge=lfs -text
